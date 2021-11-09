@@ -7,10 +7,10 @@ console.log(result)
 
 function get_max(num1, num2, num3)
 {
-    var max = Math.max(10, 25, 35);
+    var max = Math.max(num1, num2, num3);
     return max;
 }
-console.log(max)
+console.log(get_max(10,20,3));
 
 var max = [10, 3, 2];
 console.log(Math.max(...max));
